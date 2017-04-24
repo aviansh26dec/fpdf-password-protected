@@ -1,4 +1,5 @@
 <?php
+require('Fpdf.php');
 if(function_exists('mcrypt_encrypt'))
 		{
 		    function RC4($key, $data)
